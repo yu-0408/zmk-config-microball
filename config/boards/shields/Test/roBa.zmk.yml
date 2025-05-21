@@ -1,8 +1,8 @@
 file_format: "1"
-id: roBa
+id: microball
 name: roBa
 type: shield
-url: https://github.com/kumamuk-git/zmk-config-roBa
+url: https://github.com/Yu1812/zmk-config-microball
 requires: [seeeduino_xiao_ble]
 features:
   - keys
