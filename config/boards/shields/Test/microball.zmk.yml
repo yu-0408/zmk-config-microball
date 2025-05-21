@@ -1,6 +1,6 @@
 file_format: "1"
 id: microball
-name: roBa
+name: microball
 type: shield
 url: https://github.com/Yu1812/zmk-config-microball
 requires: [seeeduino_xiao_ble]
