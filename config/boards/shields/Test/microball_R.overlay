@@ -5,6 +5,11 @@
     col-offset = <6>;
 };
 
+//キー入力から200msはAMLを発動しないようにする
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
 &kscan0 {
         col-gpios
             = <&xiao_d 10 GPIO_ACTIVE_HIGH>
