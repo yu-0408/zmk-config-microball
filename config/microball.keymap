@@ -73,10 +73,10 @@
 
         FUNCTION {
             bindings = <
-&trans     &kp LS(HOME)        &kp LS(UP_ARROW)    &kp LS(END)       &trans                         &kp LC(Y)      &kp DELETE      &kp UP_ARROW    &kp PAGE_UP      &kp PAGE_DOWN
-&kp LC(A)  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT)     &trans     &trans      &trans  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2
-&kp LC(Z)  &kp LC(X)           &kp LC(C)           &kp LC(V)         &kp LC(B)  &trans      &trans  &kp RET        &kp HOME        &trans          &kp END          &kp F5
-&trans     &trans              &trans              &kp LEFT_CONTROL  &trans     &trans      &trans  &trans                                                          &kp F12
+&trans     &kp LS(HOME)        &kp LS(UP_ARROW)    &kp LS(END)       &trans                                &kp LC(Y)      &kp DELETE      &kp UP_ARROW    &kp PAGE_UP      &kp PAGE_DOWN
+&kp LC(A)  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT)     &trans     &trans      &kp LG(LS(S))  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2
+&kp LC(Z)  &kp LC(X)           &kp LC(C)           &kp LC(V)         &kp LC(B)  &trans      &trans         &kp RET        &kp HOME        &trans          &kp END          &kp F5
+&trans     &trans              &trans              &kp LEFT_CONTROL  &trans     &trans      &trans         &trans                                                          &kp F12
             >;
         };
 
